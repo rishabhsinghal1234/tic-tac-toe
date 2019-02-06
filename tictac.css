@@ -1,0 +1,39 @@
+        td{
+            border-radius: 12px;
+            background-color: gray;
+			width: 100px;
+			height: 100px;
+            color: white;
+            box-sizing: border-box;
+			text-align: center;
+            min-width: 65px;
+            font-weight: bolder;
+            box-shadow: 1px 5px #5E7684;
+            font-size: 20px;
+            cursor: pointer;
+        }
+td:active 	{
+			color: white;
+			border: 2px solid red;
+}
+.tictacbox	{
+			padding: 5px;
+			margin-top: 40px;
+			border-radius: 40px 40px 40px 40px;
+			box-shadow: 3px #757F9A;
+			}
+.score{padding: 10px; width: 50px;height: 20px;border-radius: 8px; margin:20px;background: #C6FFDD;}
+#player{
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 130%;
+	margin-bottom: 20px;
+	Color: #fd1d1d;
+}
+.tic{margin-top: 20px;}
+body{background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{color: #800000;}

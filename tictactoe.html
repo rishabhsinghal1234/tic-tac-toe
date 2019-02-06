@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>30 Min Task</title>	
+	   <link href="tictac.css" rel="stylesheet" type="text/css">
+	</head>
+		<script
+      src="http://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+<body>
+	<center><div class="tictacbox" align="center">
+		<h1>TicTacToe game</h1>
+		<div class="inner_box">
+			<span class="user_text" id="player"></span>
+			<label class="score" id="player1score" placeholder="Player 1 Score" value="0" readonly></lable><br><br><br><br><br><br>
+		</div>
+			<form class="table_box">
+				<table cellspacing="13" class="tic">					
+					<tr>
+						<td id="1" onclick="clickevent(1)"></td>
+						<td id="2" onclick="clickevent(2)"></td>
+						<td id="3" onclick="clickevent(3)"></td>
+					</tr>
+					
+					<tr>
+						<td id="4" onclick="clickevent(4)"></td>
+						<td id="5" onclick="clickevent(5)"></td>
+						<td id="6" onclick="clickevent(6)"></td>
+					</tr>
+					
+					<tr>
+						<td id="7" onclick="clickevent(7)"></td>
+						<td id="8" onclick="clickevent(8)"></td>
+						<td id="9" onclick="clickevent(9)"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</center>
+	<script src="tic.js"></script>
+</body>
+</html>
